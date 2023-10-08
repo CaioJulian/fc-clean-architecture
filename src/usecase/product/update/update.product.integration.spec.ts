@@ -25,7 +25,7 @@ describe("Integration test for product update use case", () => {
 
   it("should update a product", async () => {
     const productRepository = new ProductRepository();
-    const product = new Product("a", "Product Alfa", 123);
+    const product = new Product("1", "Product Alfa", 123);
 
     await productRepository.create(product);
 
