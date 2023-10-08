@@ -20,7 +20,7 @@ describe("Integration test create use case", () => {
       sync: { force: true },
     });
 
-    await sequelize.addModels([ProductModel]);
+    sequelize.addModels([ProductModel]);
     await sequelize.sync();
   });
 
