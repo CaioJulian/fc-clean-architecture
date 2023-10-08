@@ -4,7 +4,7 @@ import ProductRepository from "../../../infrastructure/product/repository/sequel
 import Product from "../../../domain/product/entity/product";
 import FindProductUseCase from "./find.product.usecase";
 
-describe("Test find product use case", () => {
+describe("Integration test find product use case", () => {
   let sequelize: Sequelize;
 
   beforeEach(async () => {
