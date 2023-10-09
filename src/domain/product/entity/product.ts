@@ -5,7 +5,7 @@ import ProductInterface from "./product.interface";
 
 export default class Product extends Entity implements ProductInterface {
   private _name: string;
-  private _price: number;
+  protected _price: number;
 
   constructor(id: string, name: string, price: number) {
     super();
